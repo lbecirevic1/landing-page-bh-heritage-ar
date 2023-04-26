@@ -126,7 +126,7 @@ hr {
   height: 2px;
   background: #3b9ebf;
   content: "";
-  transition: width 0.2s;
+  transition: width 0.5s;
 }
 #menu.navbar-default .navbar-nav > li > a:hover:after {
   width: 100%;
@@ -147,7 +147,7 @@ hr {
   height: 2px !important;
   background: #3b9ebf;
   content: "" !important;
-  transition: width 0.2s !important;
+  transition: width 0.5s !important;
 }
 
 .navbar-toggle {
@@ -319,13 +319,6 @@ header .intro-text {
   font-size: 20px;
   font-weight: 300;
   padding-right: 8px;
-}
-#about img {
-  width: 520px;
-  margin-top: 10px;
-  background: white;
-  border-right: 0;
-  box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
 }
 #about p {
   font-size: 22px;
@@ -599,6 +592,7 @@ label {
   flex-direction: row;
 }
 
+
 @media (max-width: 768px) {
 
   .custom-flex{
@@ -622,6 +616,15 @@ label {
     flex-direction: column;
   }
 }
+
+
+@media (max-width: 990px) {
+  #divImg {
+    display: none;
+  }
+
+}
+
 
 
 /* * {
