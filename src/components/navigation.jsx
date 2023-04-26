@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
-
+import iconImg from "../assets/icon.png";
 const languageOptions = [ 
   {
     id: "en",
@@ -60,9 +60,10 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
             <span className="icon-bar"></span>{" "}
           </button>
-          <a className="navbar-brand page-scroll" href="#page-top">
+          <a className="navbar-brand page-scroll" href="#header">
             {t("intro_h1")}
           </a>{" "}
+
         </div>
 
         <div

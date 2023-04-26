@@ -7,11 +7,8 @@ html {
   font-weight: 400;
   width: 100% !important;
   height: 100% !important;
-  overflow-x: hidden;
 }
-body{
-    position: relative
-}
+
 h2,
 h3,
 h4 {
@@ -246,7 +243,7 @@ a:focus,
 .intro h1 {
   font-family: Arial, Helvetica, sans-serif;
   color: #fff;
-  font-size: 70px;
+  font-size: 65px;
   font-weight: 700;
   text-transform: uppercase;
   margin-top: 0;
@@ -267,7 +264,6 @@ a:focus,
 header .intro-text {
   padding-top: 350px;
   padding-bottom: 200px;
-  /* text-align: center; */
 }
 /* Features Section */
 #features {
@@ -593,12 +589,43 @@ label {
   border-bottom: 2px solid #608dfd;
 }
 
-.custom-image{
+
+#logoImg {
   border-radius: 20px;
 }
 
+.custom-flex {
+  display: flex;
+  flex-direction: row;
+}
+
 @media (max-width: 768px) {
-  #about img {
-    margin: 50px 0;
+
+  .custom-flex{
+    flex-direction: column;
+  }
+
+  #divImg {
+    display: none;
+  }
+
+  header .intro-text {
+  padding-top: 200px;
+  padding-bottom: 20px; 
+}
+
+  #downloadtxt {
+    padding: 10px;
+  }
+
+  #downloadbtns {
+    flex-direction: column;
   }
 }
+
+
+/* * {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+} */
