@@ -1,0 +1,60 @@
+{
+  "Gallery": [
+    {
+      "title": "Srebrenik Castle - Gradina",
+      "largeImage": "img/portfolio/2.png",
+      "smallImage": "img/portfolio/2.png"
+    },
+    {
+      "title": "Aladža Mosque, Foča",
+      "largeImage": "img/portfolio/3.png",
+      "smallImage": "img/portfolio/3.png"
+    },
+    {
+      "title": "Academy of Fine Arts Sarajevo",
+      "largeImage": "img/portfolio/4.png",
+      "smallImage": "img/portfolio/4.png"
+    },
+    {
+      "title": "Holy Trinity Church, Prijedor",
+      "largeImage": "img/portfolio/5.png",
+      "smallImage": "img/portfolio/5.png"
+    },
+    {
+      "title": "Ali Pasha's Mosque, Sarajevo",
+      "largeImage": "img/portfolio/6.png",
+      "smallImage": "img/portfolio/6.png"
+    },
+    {
+      "title": "Sacred Heart Cathedral, Sarajevo",
+      "largeImage": "img/portfolio/7.png",
+      "smallImage": "img/portfolio/7.png"
+    },
+    {
+      "title": "Franciscan Monastery of the Holy Spirit in Fojnica",
+      "largeImage": "img/portfolio/8.png",
+      "smallImage": "img/portfolio/8.png"
+    },
+    {
+      "title": "Sebilj, Sarajevo",
+      "largeImage": "img/portfolio/9.png",
+      "smallImage": "img/portfolio/9.png"
+    },
+    {
+      "title": "Colorful Mosque in Travnik",
+      "largeImage": "img/portfolio/10.png",
+      "smallImage": "img/portfolio/10.png"
+    },
+    {
+      "title": "Ostrožac Old Town",
+      "largeImage": "img/portfolio/11.png",
+      "smallImage": "img/portfolio/11.png"
+    },
+    {
+      "title": "Old Bridge in Mostar",
+      "largeImage": "img/portfolio/12.png",
+      "smallImage": "img/portfolio/12.png"
+    }
+
+  ]
+}
