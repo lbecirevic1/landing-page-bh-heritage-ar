@@ -92,7 +92,7 @@ hr {
   font-family: Arial, Helvetica, sans-serif;
   text-transform: uppercase;
   color: #000000;
-  font-size: 15x;
+  font-size: 17px;
   font-weight: 400;
   padding: 8px 2px;
   border-radius: 0;
@@ -306,23 +306,10 @@ header .intro-text {
 #about p {
   color: black;
 }
-#about .about-text li {
-  margin-bottom: 6px;
-  margin-left: 6px;
-  list-style: none;
-  padding: 0;
-}
-#about .about-text li:before {
-  content: "\f00c";
-  font-family: Arial, Helvetica, sans-serif;
-  color: black;
-  font-size: 20px;
-  font-weight: 300;
-  padding-right: 8px;
-}
+
 #about p {
-  font-size: 22px;
-  /* line-height: 23px; */
+  font-size: 24px;
+  line-height: 25px;
   margin: 30px 0;
 }
 /* Services Section */
@@ -361,7 +348,7 @@ header .intro-text {
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
 #services h3 {
-  font-size: 25px;
+  font-size: 27px;
   font-weight: 300;
   padding: 5px 0;
   color: black;
@@ -406,7 +393,7 @@ header .intro-text {
     rgba(99, 114, 255, 0.8) 0%,
     rgba(92, 169, 251, 0.8) 100%
   );
-  padding: 30% 0 0;
+  padding: 0;
   height: 100%;
   width: 100%;
   opacity: 0;
@@ -572,8 +559,8 @@ label {
   padding: 30px 0;
 }
 #footer p {
-  color: #888;
-  font-size: 14px;
+  color: #000000;
+  font-size: 17px;
 }
 #footer a {
   color: #608dfd;
@@ -592,9 +579,30 @@ label {
   flex-direction: row;
 }
 
+  .icon-container {
+    width: 100px;
+    height: 100px;
+  }
+
 
 @media (max-width: 768px) {
 
+  #services .section-title {
+    margin-bottom: 10px;
+  }
+
+  #header h1 {
+    font-size: 60px;
+  }
+  #header p {
+    font-size: 28px;
+  }
+ #about p, #contact p, #services h3{
+    font-size: 19px;
+  }
+   #about h2, #contact h2, #services h2, #portfolio h2{
+    font-size: 32px;
+  }
   .custom-flex{
     flex-direction: column;
   }
@@ -624,11 +632,3 @@ label {
   }
 
 }
-
-
-
-/* * {
-  background: #000 !important;
-  color: #0f0 !important;
-  outline: solid #f00 1px !important;
-} */

@@ -8,17 +8,13 @@ export const About = (props) => {
       <div className="container">
         <div className="row">
           <div className="col-md-12">
-            <div>
               <h2>{t("about_h1")}</h2>
               <p>
                 {t("about_p1")}
               </p>
-            </div>
-            <div>
               <p> 
                {t("about_p2")}
               </p>
-            </div>
           </div>
           </div>
         </div>

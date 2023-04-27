@@ -23,9 +23,8 @@ export const Contact = (props) => {
                 <span>
                   <i className="fa fa-envelope-o"></i> Email
                 </span>{" "}
-                lbecirevic1@etf.unsa.ba
+                lbecirevic1@etf.unsa.ba <br/>
                 aalialzaya1@etf.unsa.ba
-
               </p>
             </div>
           </div>
