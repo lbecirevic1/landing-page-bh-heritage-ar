@@ -1,8 +1,6 @@
 import React from "react";
-import { DownloadButtons } from "./download";
 import { useTranslation } from "react-i18next";
 import { FaAndroid, FaApple } from "react-icons/fa";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export const Services = (props) => {
   const [t] = useTranslation();
@@ -20,11 +18,10 @@ export const Services = (props) => {
             </a>
           </div>
           <div className="col-sm-2">
-          <a href="http://drive.google.com/uc?export-download&id=1iCkCr_bllM9q8okfIOBpLoB0sqcYHEXM" target="_blank" rel="noopener noreferrer">
+          <a href="" target="_blank" rel="noopener noreferrer">
             <FaApple  color="black" size={100}/>
           </a>
           </div>
-
         </div>
       </div>
     </div>

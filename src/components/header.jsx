@@ -17,7 +17,7 @@ export const Header = (props) => {
                 <p>{t("intro_p")}</p>
               </div>
               <div className="col-md-6 intro-text" id="divImg">
-                <img id="logoImg" src={logoImg} alt="logopic" height={"270px"} width={"470px"}></img>
+                <img id="logoImg" src={logoImg} alt="logopic" height={"270px"} width={"510px"}></img>
               </div>
             </div>
           </div>

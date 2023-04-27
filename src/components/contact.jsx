@@ -1,12 +1,6 @@
-import { useState } from "react";
 import React from "react";
 import { useTranslation } from "react-i18next";
 
-const initialState = {
-  name: "",
-  email: "",
-  message: "",
-};
 export const Contact = (props) => {
   const [t] = useTranslation();
   return (

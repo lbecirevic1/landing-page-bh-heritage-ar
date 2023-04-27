@@ -1,7 +1,6 @@
 import React from "react";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
-import iconImg from "../assets/icon.png";
 const languageOptions = [ 
   {
     id: "en",
