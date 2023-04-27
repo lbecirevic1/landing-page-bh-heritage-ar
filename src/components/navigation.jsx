@@ -42,7 +42,6 @@ export const Navigation = (props) => {
     setLangFlag(<img src={event.target.src} height="30" width="30" alt="nope" />)
   };
 
-  console.log('t(intro_h1)', t("intro_h1"))
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
       <div className="container">

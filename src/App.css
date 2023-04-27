@@ -16,3 +16,49 @@
     width: 100%;
   }
 }
+
+
+@media (max-width: 768px) {
+  #services .section-title {
+    margin-bottom: 10px;
+  }
+
+  #header h1 {
+    font-size: 60px;
+  }
+  #header p {
+    font-size: 28px;
+  }
+ #about p, #contact p, #services h3{
+    font-size: 19px;
+  }
+   #about h2, #contact h2, #services h2, #portfolio h2{
+    font-size: 32px;
+  }
+  .custom-flex{
+    flex-direction: column;
+  }
+
+  #divImg {
+    display: none;
+  }
+
+  header .intro-text {
+  padding-top: 200px;
+  padding-bottom: 20px; 
+}
+
+  #downloadtxt {
+    padding: 10px;
+  }
+
+  #downloadbtns {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1200px) {
+  #divImg {
+    display: none;
+  }
+}
