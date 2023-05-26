@@ -18,7 +18,7 @@ export const Services = (props) => {
             </a>
           </div>
           <div className="col-sm-2">
-          <a href="" target="_blank" rel="noopener noreferrer">
+          <a href="https://apps.apple.com/app/bh-heritage-ar/id6448272365" target="_blank" rel="noopener noreferrer">
             <FaApple  color="black" size={100}/>
           </a>
           </div>

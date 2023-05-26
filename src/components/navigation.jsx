@@ -97,7 +97,6 @@ export const Navigation = (props) => {
                   {languageOptions.map((lang) => (
                     <li id={lang.id} key={lang.id} disabled>
                       <img onClick={selectListItem} src={lang.flagimg} height="30" width="30" alt="flagpic" id={lang.id} />
-                      {lang.name}
                     </li>
                   ))}
                   </ul>
